@@ -6,4 +6,4 @@ if alpha > 0{
 	gpu_set_fog(false, color,0, 0 )
 }
 // Desenha a vida acima da cabeça do inimigo
-draw_text(x + 40, y - 10, string(vida));
+draw_text(x-10, y - 50, string(vida));

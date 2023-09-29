@@ -6,6 +6,7 @@
     {"name":"Sounds","order":12,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile_Sets","order":14,"path":"folders/Tile_Sets.yy",},
+    {"name":"Script","order":16,"path":"folders/Script.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pybots_dano","order":7,"path":"sprites/spr_pybots_dano/spr_pybots_dano.yy",},
