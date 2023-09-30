@@ -1,4 +1,5 @@
 if vida ==  0{
+	instance_create_layer(x,y, "upgrades", obj_upgarde_speed_arma)
 	instance_destroy()
 } 
 
@@ -15,7 +16,7 @@ if vida == vida_total * 0.80  and proj_counter <3 {
 	proj_counter += 1
 }
 
-if vida < vida_total *0.60 and vida > vida_total * 0.35 {
+if vida < vida_total *0.60 and vida > vida_total * 0.36 {
 	speed = 3
 	image_alpha = 0.02
 	move_towards_point(obj_player.x, obj_player.y, speed)
@@ -24,7 +25,7 @@ if vida < vida_total *0.60 and vida > vida_total * 0.35 {
 	speed = 0
 	image_alpha = 1
 }
-if vida == vida_total * 0.45 and boom_counter < 5{
+if vida == vida_total * 0.44 and boom_counter < 5{
 	instance_create_layer(x,y, "balas", obj_boomberang_batebate)
 	boom_counter += 1
 }

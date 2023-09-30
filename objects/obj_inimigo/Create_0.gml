@@ -1,5 +1,5 @@
-vida_total = 200
-vida = 200
+vida_total = 250
+vida = 250
 
 alpha = 1
 color = c_white
