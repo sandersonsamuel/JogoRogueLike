@@ -72,6 +72,11 @@ if distance_to_object(obj_par_npcs) <= 10{
 	}
 }
 
+if place_meeting(x,y, obj_inimigo) and place_meeting(x,y,obj_parede){
+	instance_destroy()
+	alpha = 1
+}
+	
 
 
 
