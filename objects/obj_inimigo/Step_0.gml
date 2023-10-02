@@ -16,9 +16,8 @@ if vida == vida_total * 0.80  and proj_counter <3 {
 	proj_counter += 1
 }
 
-if vida < vida_total *0.60 and vida > vida_total * 0.36 {
+if vida < vida_total *0.60 {
 	speed = 3
-	image_alpha = 0.02
 	move_towards_point(obj_player.x, obj_player.y, speed)
 	direction = point_direction(x,y, obj_player.x, obj_player.y)
 }else{

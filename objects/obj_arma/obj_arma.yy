@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite_pistola",
-    "path": "sprites/sprite_pistola/sprite_pistola.yy",
+    "name": "spr_arma2_strip2",
+    "path": "sprites/spr_arma2_strip2/spr_arma2_strip2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

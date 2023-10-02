@@ -17,21 +17,21 @@ x+=velh
 y+= velv
 
 if cima {
-	sprite_index = spr_maike_subindo_strip3
+	sprite_index = sprite_maike_subindo_strip3
 }
 if baixo {
-	sprite_index = spr_maike_descendo_strip3
+	sprite_index =sprite_maike_descendo_strip3
 }
 if esquerda {
-	sprite_index = spr_maike_correndo_horizontal_strip3
+	sprite_index = spr_mike_correndo_strip3
 	image_xscale = -3
 }
 if direita {
-	sprite_index = spr_maike_correndo_horizontal_strip3
+	sprite_index = spr_mike_correndo_strip3
 	image_xscale = 3
 }
 if cima == 0 and baixo == 0 and esquerda == 0 and direita == 0{
-	sprite_index = spr_maike_parado_frente_strip2
+	sprite_index = spr_maike_parado_strip2
 }
 
 var mouse_dir = point_direction(x,y,mouse_x, mouse_y)
@@ -49,6 +49,9 @@ with(minha_arma){
 	
 	if(mb){
 		atirar()
+		obj_arma.image_speed *= 15
+	}else{
+		obj_arma.image_speed *= 0
 	}
 	
 }
@@ -76,7 +79,7 @@ if place_meeting(x,y, obj_inimigo) and place_meeting(x,y,obj_parede){
 	instance_destroy()
 	alpha = 1
 }
-	
+
 
 
 

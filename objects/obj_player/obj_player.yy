@@ -13,6 +13,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_boomberang","path":"objects/obj_boomberang/obj_boomberang.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_boomberang_batebate","path":"objects/obj_boomberang_batebate/obj_boomberang_batebate.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_elevador","path":"objects/obj_elevador/obj_elevador.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -37,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_maike_parado_frente_strip2",
-    "path": "sprites/spr_maike_parado_frente_strip2/spr_maike_parado_frente_strip2.yy",
+    "name": "spr_maike_parado_strip2",
+    "path": "sprites/spr_maike_parado_strip2/spr_maike_parado_strip2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,9 +1,9 @@
 if (instance_exists(arma_id)){
 	x = arma_id.x
-	y = arma_id.y+5
+	y = arma_id.y
 	
-	arma_x = x + lengthdir_x(30, arma_dire)
-	arma_y = y + lengthdir_y(30, arma_dire)
+	arma_x = x + lengthdir_x(60, arma_dire)
+	arma_y = y + lengthdir_y(60, arma_dire)
 	
 	image_angle = arma_dire
 	
@@ -13,7 +13,6 @@ if (instance_exists(arma_id)){
 //função para atirar
 
 function atirar (){
-	//vamos atirar
 	
 	if(!pd_atirar){
 		return false
@@ -29,4 +28,3 @@ function atirar (){
 	proj_bala.image_yscale = 0.5
 	
 }
-
