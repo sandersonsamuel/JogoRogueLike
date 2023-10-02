@@ -1,9 +1,7 @@
-//ESSA FUNÇÃO VAI PEGAR O NOME DO OBJ E VAI RETRONAR OS TEXTOS.
-
 function scr_textos(){
 	 switch npc_nome{
 		case "Professor":
-			ds_grid_add_text("Olá, quem é você?", spr_fac_personagem, 0 , "Aluno" );
+			ds_grid_add_text("Olá, quem é você?", spr_face_mike , 0 , "Aluno" );
 			ds_grid_add_text("Olá me chamo Marcos, serei seu tutor nessa longa jornada", spr_face_professor, 1 , "Professor" );
 			ds_grid_add_text("Vamos lá?", spr_face_professor, 1 , "Professor" );
 		break;
