@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_elevador",
+  "name": "obj_elevador_left_box",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_elevador_parado",
-    "path": "sprites/spr_elevador_parado/spr_elevador_parado.yy",
+    "name": "Sprite51",
+    "path": "sprites/Sprite51/Sprite51.yy",
   },
   "spriteMaskId": null,
   "visible": true,
