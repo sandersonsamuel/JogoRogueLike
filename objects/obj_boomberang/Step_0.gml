@@ -4,3 +4,5 @@ move_towards_point(obj_player.x, obj_player.y, speed)
 if vida == 0{
 	instance_destroy()
 }
+
+image_angle += 10

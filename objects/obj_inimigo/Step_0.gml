@@ -6,6 +6,10 @@ if vida ==  0{
 alpha = lerp(alpha, 0, 0.1)
 
 
+if vida == vida_total - 1{
+	instance_deactivate_layer("elevadores")
+}
+
 var offset_x = proj_counter * 25;
 var offset_y = proj_counter * 10
 	

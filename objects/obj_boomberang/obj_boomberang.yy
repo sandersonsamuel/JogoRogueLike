@@ -31,9 +31,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_boomerangs_strip8",
-    "path": "sprites/spr_boomerangs_strip8/spr_boomerangs_strip8.yy",
+    "name": "spr_lamina",
+    "path": "sprites/spr_lamina/spr_lamina.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_lamina",
+    "path": "sprites/spr_lamina/spr_lamina.yy",
+  },
   "visible": true,
 }

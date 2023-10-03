@@ -4,6 +4,8 @@ velocidade = 5
 move_dir = 0
 vida = 5
 
+pegou_arma = false
+
 alpha = 0
 color = c_white
 

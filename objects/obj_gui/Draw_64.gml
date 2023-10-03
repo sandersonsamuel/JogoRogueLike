@@ -1,0 +1,1 @@
+draw_sprite(spr_heart_strip7, 0, barra_vida_x, barra_vida_y)

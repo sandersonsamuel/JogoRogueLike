@@ -17,6 +17,10 @@ function atirar (){
 	if(!pd_atirar){
 		return false
 	}
+	if obj_player.pegou_arma == false{
+		return false
+	}
+	
 	
 	var proj_bala = instance_create_layer(arma_x,arma_y, "balas", obj_bala)
 	proj_bala.image_angle = arma_dire

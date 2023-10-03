@@ -49,9 +49,10 @@ with(minha_arma){
 	
 	if(mb){
 		atirar()
-		obj_arma.image_speed *= 15
+		obj_arma.image_speed = 15
 	}else{
-		obj_arma.image_speed *= 0
+		obj_arma.image_speed = 0
+		image_index = 0 
 	}
 	
 }

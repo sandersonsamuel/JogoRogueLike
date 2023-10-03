@@ -20,3 +20,8 @@ if !instance_exists(obj_player){
 	show_message("Você Perdeu!")
 	game_end()
 }
+
+if keyboard_check(vk_f5){
+	game_restart()
+}
+	
