@@ -59,7 +59,7 @@ with(minha_arma){
 
 
 //Efeito de dano
-if vida ==  0{
+if global.vida_player <= 0{
 	instance_destroy()
 } 
 
@@ -76,7 +76,7 @@ if distance_to_object(obj_par_npcs) <= 10{
 	}
 }
 
-if place_meeting(x,y, obj_inimigo) and place_meeting(x,y,obj_parede){
+if (place_meeting(x,y, obj_inimigo) or (place_meeting(x,y,obj_boomberang_batebate))) and place_meeting(x,y,obj_parede){
 	instance_destroy()
 	alpha = 1
 }

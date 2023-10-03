@@ -16,8 +16,8 @@
     "path": "folders/Tile_Sets.yy",
   },
   "spriteId": {
-    "name": "Dungeon_Tileset_azulforte",
-    "path": "sprites/Dungeon_Tileset_azulforte/Dungeon_Tileset_azulforte.yy",
+    "name": "Dungeon_Tileset62",
+    "path": "sprites/Dungeon_Tileset62/Dungeon_Tileset62.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
