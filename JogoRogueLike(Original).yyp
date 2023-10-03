@@ -98,6 +98,7 @@
     {"id":{"name":"spr_tileset_cenario","path":"sprites/spr_tileset_cenario/spr_tileset_cenario.yy",},},
     {"id":{"name":"ScriptsTexto","path":"scripts/ScriptsTexto/ScriptsTexto.yy",},},
     {"id":{"name":"Sprite58","path":"sprites/Sprite58/Sprite58.yy",},},
+    {"id":{"name":"spr_letters_py","path":"sprites/spr_letters_py/spr_letters_py.yy",},},
     {"id":{"name":"spr_elevador_abrindo","path":"sprites/spr_elevador_abrindo/spr_elevador_abrindo.yy",},},
     {"id":{"name":"beep","path":"sounds/beep/beep.yy",},},
     {"id":{"name":"spr_arma2_strip2","path":"sprites/spr_arma2_strip2/spr_arma2_strip2.yy",},},

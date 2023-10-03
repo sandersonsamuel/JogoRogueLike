@@ -30,7 +30,7 @@ if direita {
 	sprite_index = spr_mike_correndo_strip3
 	image_xscale = 3
 }
-if cima == 0 and baixo == 0 and esquerda == 0 and direita == 0{
+if velh == 0 and velv == 0{
 	sprite_index = spr_maike_parado_strip2
 }
 

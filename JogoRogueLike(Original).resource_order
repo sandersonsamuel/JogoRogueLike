@@ -75,6 +75,7 @@
     {"name":"obj_elevador_down","order":23,"path":"objects/obj_elevador_down/obj_elevador_down.yy",},
     {"name":"spr_tileset_cenario","order":26,"path":"sprites/spr_tileset_cenario/spr_tileset_cenario.yy",},
     {"name":"Sprite58","order":42,"path":"sprites/Sprite58/Sprite58.yy",},
+    {"name":"spr_letters_py","order":45,"path":"sprites/spr_letters_py/spr_letters_py.yy",},
     {"name":"spr_elevador_abrindo","order":7,"path":"sprites/spr_elevador_abrindo/spr_elevador_abrindo.yy",},
     {"name":"spr_arma2_strip2","order":10,"path":"sprites/spr_arma2_strip2/spr_arma2_strip2.yy",},
     {"name":"snd_fight","order":4,"path":"sounds/snd_fight/snd_fight.yy",},

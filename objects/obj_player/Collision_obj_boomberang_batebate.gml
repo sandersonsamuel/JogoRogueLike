@@ -1,1 +1,1 @@
-instance_destroy()
+vida -= 2 

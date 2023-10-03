@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_boomerangs_strip8",
-    "path": "sprites/spr_boomerangs_strip8/spr_boomerangs_strip8.yy",
+    "name": "spr_letters_py",
+    "path": "sprites/spr_letters_py/spr_letters_py.yy",
   },
   "spriteMaskId": null,
   "visible": true,
