@@ -28,11 +28,13 @@ if vida < vida_total{
 	}
 
 	//inimigo se mover na direção do personagem
-	move_towards_point(obj_player.x, obj_player.y, move_veloc)
-	direction = point_direction(x,y, obj_player.x, obj_player.y)
+	if instance_exists(obj_player){
+		move_towards_point(obj_player.x, obj_player.y, move_veloc)
+		direction = point_direction(x,y, obj_player.x, obj_player.y)
+	}
 	
 	//a cada 10s o inimigo solta um boomerang em formato da logo do python
-	if py_logo_timer  == 6{
+	if py_logo_timer  == 6 and  instance_exists(obj_player){
 		var boome = instance_create_layer(x + offset_x, y + offset_y, "balas", obj_boomberang)
 		boome.speed = 3.5
 		boome.direction = point_direction(x,y, obj_player.x, obj_player.y)
