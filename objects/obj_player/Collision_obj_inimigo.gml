@@ -1,7 +1,10 @@
-y += 50
-x += 50
+if place_meeting(x,y,obj_inimigo){
+	x-= 64*(sign(velh))
+	y-= 64*(sign(velv))
+	dano_player(1)
+	alpha = 1
+}
 
-alpha = 1
-dano_player(1)
+
 
 
