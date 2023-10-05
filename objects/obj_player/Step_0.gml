@@ -43,7 +43,8 @@ if intervalo{
 	image_xscale = 3
 }
 
-with(minha_arma){
+if pegou_arma{
+	with(minha_arma){
 	arma_dire = point_direction(x, y, mouse_x, mouse_y)
 	mb = mouse_check_button(mb_left) or keyboard_check(vk_space)	
 	
@@ -55,6 +56,7 @@ with(minha_arma){
 		image_index = 0 
 	}
 	
+	}
 }
 
 
