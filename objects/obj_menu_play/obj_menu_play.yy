@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_menu_par","path":"objects/obj_menu_par/obj_menu_par.yy",},"propertyId":{"name":"botao_nomes","path":"objects/obj_menu_par/obj_menu_par.yy",},"value":"Novo Jogo",},
   ],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_menu",
+    "path": "folders/Objetos/objs_menu.yy",
   },
   "parentObjectId": {
     "name": "obj_menu_par",

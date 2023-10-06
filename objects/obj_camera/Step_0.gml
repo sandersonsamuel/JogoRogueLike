@@ -19,4 +19,13 @@ if keyboard_check(vk_control) + (keyboard_check(ord("w"))){
 if keyboard_check(vk_f5){
 	game_restart()
 }
-	
+
+if keyboard_check_pressed(vk_escape){
+	global.pause = !global.pause
+	window_set_cursor(cr_arrow)
+}
+if !global.pause{
+	window_set_cursor(cr_none)
+}
+
+

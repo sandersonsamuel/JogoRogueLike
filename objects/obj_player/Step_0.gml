@@ -50,7 +50,7 @@ if pegou_arma{
 	
 	if(mb){
 		atirar()
-		obj_arma.image_speed = 15
+		obj_arma.image_speed = 5
 	}else{
 		obj_arma.image_speed = 0
 		image_index = 0 
