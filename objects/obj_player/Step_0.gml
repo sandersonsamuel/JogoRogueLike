@@ -87,6 +87,12 @@ if (place_meeting(x,y, obj_inimigo) or (place_meeting(x,y,obj_boomberang_batebat
 	alpha = 1
 }
 
+if place_meeting(x,y,obj_inimigo){
+	dano_player(1)
+	x-= 200*(sign(velh))
+	y-= 200*(sign(velv))
+	alpha = 1
+}
 
 
 

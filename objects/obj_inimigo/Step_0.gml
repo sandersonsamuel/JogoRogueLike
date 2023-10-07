@@ -1,7 +1,8 @@
-if (global.pause){
+if global.pause{
 	speed = 0
 	exit
 }
+
 
 var offset_x = proj_counter * 25;
 var offset_y = proj_counter * 10
@@ -40,10 +41,10 @@ if vida < vida_total{
 	
 	//a cada 10s o inimigo solta um boomerang em formato da logo do python
 	if py_logo_timer  == 6 and  instance_exists(obj_player){
-		var boome = instance_create_layer(x + offset_x, y + offset_y, "balas", obj_boomberang)
-		boome.speed = 3.5
-		boome.direction = point_direction(x,y, obj_player.x, obj_player.y)
-		py_logo_timer  = 0
+		var boome = instance_create_layer(x + offset_x, y + offset_y, "balas", obj_boomberang);
+		boome.speed = 3.5;
+		boome.original_direction = point_direction(x, y, obj_player.x, obj_player.y);
+		boome.direction = boome.original_direction;
 	}
 	
 	//jogar boomerangs bate-bate a cada 20s

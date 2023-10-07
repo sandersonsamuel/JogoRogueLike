@@ -32,7 +32,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_pybots_strip4",
     "path": "sprites/spr_pybots_strip4/spr_pybots_strip4.yy",
