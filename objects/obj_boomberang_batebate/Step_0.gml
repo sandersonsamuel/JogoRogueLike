@@ -1,3 +1,9 @@
+if (global.pause){
+	exit
+	speed = 0
+}
+
+if (global.pause) exit
 var num_spr_frames = sprite_get_number(obj_boomberang_batebate.sprite_index)
 
 if (place_meeting(x + hspd, y, obj_parede)) {

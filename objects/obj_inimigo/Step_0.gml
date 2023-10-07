@@ -1,3 +1,8 @@
+if (global.pause){
+	speed = 0
+	exit
+}
+
 var offset_x = proj_counter * 25;
 var offset_y = proj_counter * 10
 

@@ -1,3 +1,8 @@
+if (global.pause){
+	image_index = 0
+	exit
+}
+
 //verificando teclas
 var cima = keyboard_check(ord("W"))
 var baixo = keyboard_check(ord("S"))
@@ -5,7 +10,6 @@ var esquerda = keyboard_check(ord("A"))
 var direita = keyboard_check(ord("D"))
 
 var teclas = direita - esquerda != 0 or baixo - cima != 0
-
 
 //fazendo a movimentação
 move_dir = point_direction(0,0, direita-esquerda, baixo - cima)
@@ -81,6 +85,10 @@ if distance_to_object(obj_par_npcs) <= 10{
 if (place_meeting(x,y, obj_inimigo) or (place_meeting(x,y,obj_boomberang_batebate))) and place_meeting(x,y,obj_parede){
 	instance_destroy()
 	alpha = 1
+}
+
+if (place_meeting(x,y, obj_livro_drop)){
+	pd_abrir_livro = true
 }
 
 

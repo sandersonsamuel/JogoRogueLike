@@ -1,3 +1,4 @@
+if (global.pause) exit
 enum Infos{
     Texto,
     Retrato,

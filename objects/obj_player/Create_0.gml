@@ -22,4 +22,6 @@ minha_arma.arma_id = self
 
 audio_play_sound(MUSIQUINHA8BITSFAMICON, 1, true, 0.08)
 
+pd_abrir_livro = false
+
 

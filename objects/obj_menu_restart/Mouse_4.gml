@@ -1,0 +1,2 @@
+room_restart()
+audio_stop_sound(MUSIQUINHA8BITSFAMICON)

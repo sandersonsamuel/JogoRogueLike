@@ -24,8 +24,8 @@ if keyboard_check_pressed(vk_escape){
 	global.pause = !global.pause
 	window_set_cursor(cr_arrow)
 }
-if !global.pause{
-	window_set_cursor(cr_none)
-}
+
+
+
 
 

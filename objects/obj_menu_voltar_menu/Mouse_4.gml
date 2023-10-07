@@ -1,3 +1,2 @@
-event_inherited();
-room_goto_next()
-
+room_goto(rm_menu)
+game_restart()

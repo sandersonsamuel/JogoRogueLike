@@ -1,3 +1,5 @@
+if (global.pause) exit
+
 if (instance_exists(arma_id)){
 	x = arma_id.x
 	y = arma_id.y

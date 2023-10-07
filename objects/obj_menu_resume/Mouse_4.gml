@@ -1,3 +1,1 @@
-event_inherited();
-room_goto_next()
-
+global.pause =! global.pause
