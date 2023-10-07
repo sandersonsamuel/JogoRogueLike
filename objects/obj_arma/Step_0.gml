@@ -1,4 +1,4 @@
-if (global.pause) exit
+if (global.pause){exit}
 
 if (instance_exists(arma_id)){
 	x = arma_id.x
