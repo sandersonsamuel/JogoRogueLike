@@ -45,6 +45,7 @@ if vida < vida_total{
 		boome.speed = 3.5;
 		boome.original_direction = point_direction(x, y, obj_player.x, obj_player.y);
 		boome.direction = boome.original_direction;
+		py_logo_timer = 0;
 	}
 	
 	//jogar boomerangs bate-bate a cada 20s
