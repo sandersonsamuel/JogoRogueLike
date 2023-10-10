@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_elevadores",
+    "path": "folders/Objetos/objs_elevadores.yy",
   },
   "parentObjectId": null,
   "persistent": false,

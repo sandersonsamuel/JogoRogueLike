@@ -124,6 +124,13 @@ if global.pd_dano {
     }
 }
 
+//verificando colisão com o drop do livro
+if place_meeting(x,y,obj_livro_drop){
+	global.tocando_livro = true
+}else{
+	global.tocando_livro = false
+}
+
 
 
 

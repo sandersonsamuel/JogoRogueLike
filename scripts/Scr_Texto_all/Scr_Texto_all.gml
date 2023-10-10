@@ -1,0 +1,3 @@
+function textoP(texto){
+	
+}

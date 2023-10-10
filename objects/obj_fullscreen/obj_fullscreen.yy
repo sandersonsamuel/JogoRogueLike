@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_complementares",
+    "path": "folders/Objetos/objs_complementares.yy",
   },
   "parentObjectId": null,
   "persistent": true,

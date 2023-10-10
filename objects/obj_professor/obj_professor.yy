@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_characters",
+    "path": "folders/Objetos/objs_characters.yy",
   },
   "parentObjectId": {
     "name": "obj_par_npcs",

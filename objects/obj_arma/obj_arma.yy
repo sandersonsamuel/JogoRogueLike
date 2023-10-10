@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "objs_itens_characters",
+    "path": "folders/Objetos/objs_itens_characters.yy",
   },
   "parentObjectId": null,
   "persistent": false,
