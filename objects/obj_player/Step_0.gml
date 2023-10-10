@@ -87,12 +87,26 @@ if (place_meeting(x,y, obj_inimigo) or (place_meeting(x,y,obj_boomberang_batebat
 	alpha = 1
 }
 
-if place_meeting(x,y,obj_inimigo){
-	dano_player(1)
-	x-= 200*(sign(velh))
-	y-= 200*(sign(velv))
-	alpha = 1
+//sistema de piscar e ficar invulneravel no jogo
+if global.pd_dano {
+    global.pd_danoInterTime++;
+    
+    // Alterna a opacidade com um intervalo de tempo
+    if (global.pd_danoInterTime % global.pd_danoInterval == 0) {
+        if (image_alpha == 1) {
+            image_alpha = 0;
+        } else {
+            image_alpha = 1;
+        }
+    }
+    
+    // Desativa a invencibilidade
+    if global.pd_danoInterTime >= global.pd_danoTime {
+        global.pd_dano = false;
+        image_alpha = 1;
+    }
 }
+
 
 
 

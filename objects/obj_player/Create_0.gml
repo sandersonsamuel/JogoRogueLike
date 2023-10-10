@@ -24,4 +24,12 @@ audio_play_sound(MUSIQUINHA8BITSFAMICON, 1, true, 0.08)
 
 pd_abrir_livro = false
 
+//variáveis de dano
+global.pd_dano = false
+global.pd_danoTime = 60 * 2
+global.pd_danoInterval = 10
+global.pd_danoInterTime = 0
+
+
+
 
