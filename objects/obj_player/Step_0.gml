@@ -21,18 +21,35 @@ x+=velh
 y+= velv
 
 if cima {
-	sprite_index = sprite_maike_subindo_strip3
+	if place_meeting(x+velh,y,obj_parede){
+		sprite_index = spr_maike_parado_strip2
+	}else{
+		sprite_index = sprite_maike_subindo_strip3
+	}
 }
 if baixo {
-	sprite_index =sprite_maike_descendo_strip3
+	if place_meeting(x+velh,y,obj_parede){
+		sprite_index = spr_maike_parado_strip2
+	}else{
+		sprite_index =sprite_maike_descendo_strip3
+	}
 }
 if esquerda {
-	sprite_index = spr_mike_correndo_strip3
 	image_xscale = -3
+	if place_meeting(x+velh,y,obj_parede){
+		sprite_index = spr_maike_parado_strip2
+	}else{
+		sprite_index = spr_mike_correndo_strip3
+	}
 }
 if direita {
-	sprite_index = spr_mike_correndo_strip3
+	
 	image_xscale = 3
+	if place_meeting(x,y,obj_parede){
+		sprite_index = spr_maike_parado_strip2
+	}else{
+		sprite_index = spr_mike_correndo_strip3
+	}
 }
 if velh == 0 and velv == 0{
 	sprite_index = spr_maike_parado_strip2

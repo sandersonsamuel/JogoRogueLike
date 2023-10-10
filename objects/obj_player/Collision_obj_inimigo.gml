@@ -7,5 +7,5 @@ if !global.pd_dano{
 	}
 }
 
-dano_player(1)
+dano_player(3)
 

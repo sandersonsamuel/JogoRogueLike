@@ -6,6 +6,8 @@ if (global.pause){
 if instance_exists(obj_player){
 	var dir = point_direction(x,y, obj_player.x, obj_player.y)
 	move_towards_point(obj_player.x, obj_player.y, speed)
+}else{
+	instance_destroy()
 }
 
 if vida == 0{

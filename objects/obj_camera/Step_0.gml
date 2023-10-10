@@ -12,7 +12,7 @@ if (instance_exists(target)){
 	target= -1
 }
 
-if keyboard_check(vk_control) + (keyboard_check(ord("w"))){
+if keyboard_check(vk_control) &&  keyboard_check(ord("w")){
 	game_end()
 }
 
