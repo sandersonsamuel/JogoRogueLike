@@ -8,7 +8,7 @@ var offset_x = proj_counter * 25;
 var offset_y = proj_counter * 10
 
 //defininindo o alpha
-alpha = lerp(alpha, 0, 0.1)
+alpha = lerp(alpha, 0, 0.1) 
 
 
 //condição de morte

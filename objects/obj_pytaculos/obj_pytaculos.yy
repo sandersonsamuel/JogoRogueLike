@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_control",
+  "name": "obj_pytaculos",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_complementares",
-    "path": "folders/Objetos/objs_complementares.yy",
+    "name": "objs_characters",
+    "path": "folders/Objetos/objs_characters.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +27,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": null,
+  "solid": false,
+  "spriteId": {
+    "name": "spr_Pytaculus_strip4",
+    "path": "sprites/spr_Pytaculus_strip4/spr_Pytaculus_strip4.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

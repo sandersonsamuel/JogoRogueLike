@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite51",
-    "path": "sprites/Sprite51/Sprite51.yy",
+    "name": "_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef",
+    "path": "sprites/_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef/_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef.yy",
   },
   "spriteMaskId": null,
   "visible": true,

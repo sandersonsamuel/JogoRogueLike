@@ -13,9 +13,6 @@ color = c_white
 
 elevador_em_movimento = false;
 
-//ocultando setinha
-window_set_cursor(cr_none)
-
 //criando a arma
 minha_arma = instance_create_layer(x,y, "armas", obj_arma)
 minha_arma.arma_id = self
@@ -29,6 +26,8 @@ global.pd_dano = false
 global.pd_danoTime = 60 * 2
 global.pd_danoInterval = 10
 global.pd_danoInterTime = 0
+
+global.tomou_dano = false
 
 
 
