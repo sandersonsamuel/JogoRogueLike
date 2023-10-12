@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_elevador_strip",
-    "path": "sprites/spr_elevador_strip/spr_elevador_strip.yy",
+    "name": "Sprite51",
+    "path": "sprites/Sprite51/Sprite51.yy",
   },
   "spriteMaskId": null,
   "visible": true,
