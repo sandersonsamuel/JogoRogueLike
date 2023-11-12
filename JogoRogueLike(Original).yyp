@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_elevador_strip","path":"sprites/spr_elevador_strip/spr_elevador_strip.yy",},},
@@ -84,6 +84,7 @@
     {"id":{"name":"Dungeon_Tileset","path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},},
     {"id":{"name":"spr_professor_parado_respirando_strip2","path":"sprites/spr_professor_parado_respirando_strip2/spr_professor_parado_respirando_strip2.yy",},},
     {"id":{"name":"spr_arma_strip2","path":"sprites/spr_arma_strip2/spr_arma_strip2.yy",},},
+    {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"spr_opc_menu","path":"sprites/spr_opc_menu/spr_opc_menu.yy",},},
     {"id":{"name":"spr_chao_verde","path":"sprites/spr_chao_verde/spr_chao_verde.yy",},},
     {"id":{"name":"obj_menu_play","path":"objects/obj_menu_play/obj_menu_play.yy",},},

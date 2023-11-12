@@ -58,6 +58,7 @@
     {"name":"spr_mike_correndo_horizontal","order":2,"path":"sprites/spr_mike_correndo_horizontal/spr_mike_correndo_horizontal.yy",},
     {"name":"Dungeon_Tileset","order":20,"path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},
     {"name":"spr_arma_strip2","order":6,"path":"sprites/spr_arma_strip2/spr_arma_strip2.yy",},
+    {"name":"obj_controle","order":5,"path":"objects/obj_controle/obj_controle.yy",},
     {"name":"spr_opc_menu","order":47,"path":"sprites/spr_opc_menu/spr_opc_menu.yy",},
     {"name":"spr_chao_verde","order":30,"path":"sprites/spr_chao_verde/spr_chao_verde.yy",},
     {"name":"obj_menu_play","order":1,"path":"objects/obj_menu_play/obj_menu_play.yy",},
