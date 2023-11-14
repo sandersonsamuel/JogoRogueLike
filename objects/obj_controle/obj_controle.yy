@@ -3,8 +3,13 @@
   "resourceVersion": "1.0",
   "name": "obj_controle",
   "eventList": [
+<<<<<<< HEAD
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+=======
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+>>>>>>> a6db2d94442e85fd1a8d94db9e3f4bf4f3fd8126
   ],
   "managed": true,
   "overriddenProperties": [],
