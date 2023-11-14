@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_elevador_strip","path":"sprites/spr_elevador_strip/spr_elevador_strip.yy",},},
@@ -90,6 +90,7 @@
     {"id":{"name":"spr_parede_de_lado17","path":"sprites/spr_parede_de_lado17/spr_parede_de_lado17.yy",},},
     {"id":{"name":"spr_heart_strip7","path":"sprites/spr_heart_strip7/spr_heart_strip7.yy",},},
     {"id":{"name":"spr_lamina_strip3","path":"sprites/spr_lamina_strip3/spr_lamina_strip3.yy",},},
+    {"id":{"name":"spr_seletor","path":"sprites/spr_seletor/spr_seletor.yy",},},
     {"id":{"name":"obj_elevador_rigth_box","path":"objects/obj_elevador_rigth_box/obj_elevador_rigth_box.yy",},},
     {"id":{"name":"spr_processador_fundo_cenario","path":"sprites/spr_processador_fundo_cenario/spr_processador_fundo_cenario.yy",},},
     {"id":{"name":"spr_fundo_cenario_verde","path":"sprites/spr_fundo_cenario_verde/spr_fundo_cenario_verde.yy",},},
@@ -102,6 +103,7 @@
     {"id":{"name":"sprite_pistola","path":"sprites/sprite_pistola/sprite_pistola.yy",},},
     {"id":{"name":"obj_boomberang_batebate","path":"objects/obj_boomberang_batebate/obj_boomberang_batebate.yy",},},
     {"id":{"name":"spr_livro_aberto","path":"sprites/spr_livro_aberto/spr_livro_aberto.yy",},},
+    {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"explosion_1","path":"sounds/explosion_1/explosion_1.yy",},},
     {"id":{"name":"obj_menu_sair","path":"objects/obj_menu_sair/obj_menu_sair.yy",},},
     {"id":{"name":"fnt_menu_ingame","path":"fonts/fnt_menu_ingame/fnt_menu_ingame.yy",},},
@@ -146,6 +148,7 @@
     {"id":{"name":"snd_tiro_inimigo_2","path":"sounds/snd_tiro_inimigo_2/snd_tiro_inimigo_2.yy",},},
     {"id":{"name":"SpriteUpgrade","path":"sprites/SpriteUpgrade/SpriteUpgrade.yy",},},
     {"id":{"name":"professor_strip2_","path":"sprites/professor_strip2_/professor_strip2_.yy",},},
+    {"id":{"name":"spr_op_background","path":"sprites/spr_op_background/spr_op_background.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"obj_livro_aberto","path":"objects/obj_livro_aberto/obj_livro_aberto.yy",},},
     {"id":{"name":"spr_mike_parado_respirando","path":"sprites/spr_mike_parado_respirando/spr_mike_parado_respirando.yy",},},
