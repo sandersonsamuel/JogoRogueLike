@@ -11,7 +11,7 @@ inicializar = false;
 
 op[0] = "";
 op_resposta[0] = "";
-op_num = 3;
+op_num = 0;
 op_selecionada = 0;
 op_draw = false;
 

@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
+  ],
 }

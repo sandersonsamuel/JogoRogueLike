@@ -117,6 +117,7 @@
     {"id":{"name":"obj_livro_drop","path":"objects/obj_livro_drop/obj_livro_drop.yy",},},
     {"id":{"name":"Dungeon_Tileset_azulforte","path":"sprites/Dungeon_Tileset_azulforte/Dungeon_Tileset_azulforte.yy",},},
     {"id":{"name":"obj_elevador_down","path":"objects/obj_elevador_down/obj_elevador_down.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_tileset_cenario","path":"sprites/spr_tileset_cenario/spr_tileset_cenario.yy",},},
     {"id":{"name":"ScriptsTexto","path":"scripts/ScriptsTexto/ScriptsTexto.yy",},},
     {"id":{"name":"Scr_Texto_all","path":"scripts/Scr_Texto_all/Scr_Texto_all.yy",},},

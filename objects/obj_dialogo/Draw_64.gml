@@ -24,4 +24,29 @@ if inicializar == true{
 		
 		draw_sprite_ext(_sprite, 0, _guil - 100, _guia, -3, 3, 0, c_white, 1)
 	}
+	if op_draw == true{
+		var _opx = _xx + 32;
+		var _opy = _yy - 48;
+		var _opsep = 48;
+		var _opborda = 6;
+		
+		op_selecionada += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
+		op_selecionada = clamp(op_selecionada, 0, op_num -1);
+		
+		for(var _i = 0; _i < op_num; _i++){
+			var _stringw = string_width(op[_i])
+			draw_sprite_ext(spr_op_background, 0,_opx, _opy - (_opsep * _i),(_stringw + _opborda * 2)/16, 1, 0, c_white, 1 )
+			draw_text(_opx + _opborda, _opy - (_opsep * _i), op[_i])
+			
+			if op_selecionada == _i{
+				draw_sprite(spr_seletor, 0, _xx + 8, _opy - (_opsep * _i)+ 8 )
+
+			}
+		}
+		if (keyboard_check_pressed(vk_enter)){
+			var _dialogo = instance_create_layer(x,y, "Dialogo", obj_dialogo );
+			 _dialogo.npc_nome = op_resposta[op_selecionada];
+			 instance_destroy()
+		}
+	}	
 }

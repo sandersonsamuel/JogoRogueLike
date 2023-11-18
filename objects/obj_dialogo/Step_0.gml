@@ -8,9 +8,9 @@ if mouse_check_button_pressed(mb_left){
 	if caractere < string_length(texto_grid[# Infos.Texto, pagina]){
 		caractere = string_length(texto_grid[# Infos.Texto, pagina])
 	}else{
-		alarm[0] = 1;
-		caractere = 0;
 		if pagina < ds_grid_height(texto_grid ) - 1{
+			alarm[0] = 1;
+			caractere = 0;
 			pagina++;
 		}else{
 			 if op_num != 0{
