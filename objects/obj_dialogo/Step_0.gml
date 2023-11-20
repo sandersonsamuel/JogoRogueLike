@@ -1,4 +1,4 @@
-if inicializar == false{
+ if inicializar == false{
 	scr_textos();
 	inicializar = true;
 }

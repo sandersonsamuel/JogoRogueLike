@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_professor_sala2","order":1,"path":"objects/obj_professor_sala2/obj_professor_sala2.yy",},
     {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
+    {"name":"obj_professor_sala3","order":2,"path":"objects/obj_professor_sala3/obj_professor_sala3.yy",},
   ],
 }

@@ -1,6 +1,6 @@
 function scr_textos(){
 	 switch npc_nome{
-		case "Professor":
+		case "Professor-1":
 			ds_grid_add_text("Olá, quem é você?", spr_face_mike , 0 , "Aluno" );
 			ds_grid_add_text("Olá me chamo Marcos, serei seu tutor nessa longa jornada", spr_face_professor, 1 , "Professor" );
 			ds_grid_add_text("Vamos lá?", spr_face_professor, 1 , "Professor" );

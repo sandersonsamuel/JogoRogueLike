@@ -1,4 +1,4 @@
-if (global.pause){
+ if (global.pause){
 	image_index = 0
 	exit
 }

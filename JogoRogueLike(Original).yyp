@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"spr_elevador_strip","path":"sprites/spr_elevador_strip/spr_elevador_strip.yy",},},
@@ -82,6 +82,7 @@
     {"id":{"name":"obj_elevador_down_box","path":"objects/obj_elevador_down_box/obj_elevador_down_box.yy",},},
     {"id":{"name":"spr_mike_correndo_horizontal","path":"sprites/spr_mike_correndo_horizontal/spr_mike_correndo_horizontal.yy",},},
     {"id":{"name":"Dungeon_Tileset","path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},},
+    {"id":{"name":"obj_professor_sala2","path":"objects/obj_professor_sala2/obj_professor_sala2.yy",},},
     {"id":{"name":"spr_professor_parado_respirando_strip2","path":"sprites/spr_professor_parado_respirando_strip2/spr_professor_parado_respirando_strip2.yy",},},
     {"id":{"name":"spr_arma_strip2","path":"sprites/spr_arma_strip2/spr_arma_strip2.yy",},},
     {"id":{"name":"spr_opc_menu","path":"sprites/spr_opc_menu/spr_opc_menu.yy",},},
@@ -99,7 +100,7 @@
     {"id":{"name":"_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef","path":"sprites/_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef/_9c7bb778_fd4c_4ab5_80ca_05e2f1e181ef.yy",},},
     {"id":{"name":"obj_elevador_left","path":"objects/obj_elevador_left/obj_elevador_left.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
-    {"id":{"name":"obj_professor","path":"objects/obj_professor/obj_professor.yy",},},
+    {"id":{"name":"obj_professor_sala1","path":"objects/obj_professor_sala1/obj_professor_sala1.yy",},},
     {"id":{"name":"sprite_pistola","path":"sprites/sprite_pistola/sprite_pistola.yy",},},
     {"id":{"name":"obj_boomberang_batebate","path":"objects/obj_boomberang_batebate/obj_boomberang_batebate.yy",},},
     {"id":{"name":"spr_livro_aberto","path":"sprites/spr_livro_aberto/spr_livro_aberto.yy",},},
@@ -123,6 +124,7 @@
     {"id":{"name":"Scr_Texto_all","path":"scripts/Scr_Texto_all/Scr_Texto_all.yy",},},
     {"id":{"name":"Sprite58","path":"sprites/Sprite58/Sprite58.yy",},},
     {"id":{"name":"spr_letters_py","path":"sprites/spr_letters_py/spr_letters_py.yy",},},
+    {"id":{"name":"obj_professor_sala3","path":"objects/obj_professor_sala3/obj_professor_sala3.yy",},},
     {"id":{"name":"spr_elevador_abrindo","path":"sprites/spr_elevador_abrindo/spr_elevador_abrindo.yy",},},
     {"id":{"name":"beep","path":"sounds/beep/beep.yy",},},
     {"id":{"name":"spr_arma2_strip2","path":"sprites/spr_arma2_strip2/spr_arma2_strip2.yy",},},
