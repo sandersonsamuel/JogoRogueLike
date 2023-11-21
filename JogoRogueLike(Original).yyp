@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_elevador_strip","path":"sprites/spr_elevador_strip/spr_elevador_strip.yy",},},
@@ -53,6 +53,7 @@
     {"id":{"name":"spr_boomerangs_strip8","path":"sprites/spr_boomerangs_strip8/spr_boomerangs_strip8.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
+    {"id":{"name":"spr_mike_rosto","path":"sprites/spr_mike_rosto/spr_mike_rosto.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"spr_new_pistol","path":"sprites/spr_new_pistol/spr_new_pistol.yy",},},
     {"id":{"name":"obj_menu_voltar_menu","path":"objects/obj_menu_voltar_menu/obj_menu_voltar_menu.yy",},},

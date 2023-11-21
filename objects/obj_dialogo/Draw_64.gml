@@ -1,7 +1,7 @@
 if inicializar == true{
 	var _guil = display_get_gui_width();
 	var _guia = display_get_gui_height();
-	
+	obj_player.velocidade = 0
 	var _xx = 0;
 	var _yy = _guia - 200;
 	var _c = c_black;
@@ -30,7 +30,7 @@ if inicializar == true{
 		var _opsep = 48;
 		var _opborda = 6;
 		
-		op_selecionada += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
+		op_selecionada += keyboard_check_pressed(ord("W")) - keyboard_check_pressed(ord("S"));
 		op_selecionada = clamp(op_selecionada, 0, op_num -1);
 		
 		for(var _i = 0; _i < op_num; _i++){
@@ -49,4 +49,6 @@ if inicializar == true{
 			 instance_destroy()
 		}
 	}	
+	
 }
+

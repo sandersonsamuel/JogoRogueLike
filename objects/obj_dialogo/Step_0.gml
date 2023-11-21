@@ -12,12 +12,14 @@ if mouse_check_button_pressed(mb_left){
 			alarm[0] = 1;
 			caractere = 0;
 			pagina++;
+			
 		}else{
 			 if op_num != 0{
 				op_draw = true;
 			 }
 				else{
 					global.dialogo = false;
+					obj_player.velocidade = 5
 					instance_destroy();
 				}
 					

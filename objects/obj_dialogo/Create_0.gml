@@ -15,5 +15,8 @@ op_num = 0;
 op_selecionada = 0;
 op_draw = false;
 
+velh = 0;
+velv = 0;
+move_dir = 0
 caractere = 0;
 alarm[0] = 1 
