@@ -84,6 +84,7 @@ if pegou_arma{
 //Efeito de dano
 if global.vida_player <= 0{
 	instance_destroy()
+	pegou_chave = false
 } 
 
 alpha = lerp(alpha, 0, 0.1)

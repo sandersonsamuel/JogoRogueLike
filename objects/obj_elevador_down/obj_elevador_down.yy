@@ -2,14 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_elevador_down",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "objs_elevadores",
     "path": "folders/Objetos/objs_elevadores.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_npcs",
+    "path": "objects/obj_par_npcs/obj_par_npcs.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

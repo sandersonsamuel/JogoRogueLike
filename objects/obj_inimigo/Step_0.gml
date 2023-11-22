@@ -1,4 +1,4 @@
-if global.pause{
+ if global.pause{
 	speed = 0
 	exit
 }
@@ -13,7 +13,6 @@ alpha = lerp(alpha, 0, 0.1)
 
 //condição de morte
 if vida ==  0{
-	instance_create_layer(x,y, "upgrades", obj_upgarde_speed_arma)
 	instance_destroy()
 } 
 

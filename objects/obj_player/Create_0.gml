@@ -7,6 +7,7 @@ global.vida_player = 6
 global.vida_player_total = global.vida_player
 
 pegou_arma = false
+pegou_chave = false
 
 alpha = 0
 color = c_white

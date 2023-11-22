@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_professor_sala1",
+  "name": "obj_chave",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,10 +11,7 @@
     "name": "objs_characters",
     "path": "folders/Objetos/objs_characters.yy",
   },
-  "parentObjectId": {
-    "name": "obj_par_npcs",
-    "path": "objects/obj_par_npcs/obj_par_npcs.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_professor_parado_respirando_strip2",
-    "path": "sprites/spr_professor_parado_respirando_strip2/spr_professor_parado_respirando_strip2.yy",
+    "name": "_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview",
+    "path": "sprites/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview.yy",
   },
   "spriteMaskId": null,
   "visible": true,

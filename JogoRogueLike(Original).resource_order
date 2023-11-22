@@ -1,9 +1,12 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview","order":1,"path":"sprites/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview.yy",},
     {"name":"spr_mike_rosto","order":1,"path":"sprites/spr_mike_rosto/spr_mike_rosto.yy",},
     {"name":"obj_professor_sala2","order":1,"path":"objects/obj_professor_sala2/obj_professor_sala2.yy",},
+    {"name":"obj_professor_sala4","order":4,"path":"objects/obj_professor_sala4/obj_professor_sala4.yy",},
     {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
     {"name":"obj_professor_sala3","order":2,"path":"objects/obj_professor_sala3/obj_professor_sala3.yy",},
+    {"name":"obj_chave","order":3,"path":"objects/obj_chave/obj_chave.yy",},
   ],
 }

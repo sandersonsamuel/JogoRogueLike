@@ -1,1 +1,1 @@
-veloc = random_range(5, 7)
+veloc = random_range(3, 5)
