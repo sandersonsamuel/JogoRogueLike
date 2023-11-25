@@ -25,14 +25,3 @@ if (global.pause){
 	instance_deactivate_layer("menu_buttons");
 }
 
-//criado o livro na tela
-if !instance_exists(obj_livro_aberto) and keyboard_check_pressed(ord("E")) and global.tocando_livro{
-    instance_create_layer(global.camera_x + global.meioh, global.camera_y + global.meiov, "livros_abertos", obj_livro_aberto);
-    obj_player.velocidade = 0;
-	
-	
-	
-} else if instance_exists(obj_livro_aberto) and keyboard_check_pressed(ord("E")) {
-    instance_deactivate_object(obj_livro_aberto);
-    obj_player.velocidade = 5;
-}

@@ -13,7 +13,7 @@ function scr_textos(){
 			ds_grid_add_text("Ótimo! Que a jornada comece!", spr_face_professor, 1 , "Professor" );		
 			break
 		case "Professor-2":
-			ds_grid_add_text("Esse é o primeiro quiz! Responda corretamente e terá sua recompensa!",spr_face_professor, 1 , "Professor" );
+			ds_grid_add_text("Responda corretamente o quiz e terá sua recompensa!",spr_face_professor, 1 , "Professor" );
 			ds_grid_add_text("O que é a função print em python?",spr_face_professor, 1 , "Professor" );
 				add_op("É usada para mostrar uma mensagem na tela",  "Resposta 1")
 				add_op("É usada para digitar uma mensagem no teclado",   "Resposta 2")
@@ -24,7 +24,7 @@ function scr_textos(){
 				obj_player.pegou_arma = true
 				ds_grid_add_text("Parabéns, você desbloqueou sua pistola de água", spr_face_professor, 1 , "Professor" );
 				ds_grid_add_text("Está pronto para derrotar os inimigos?", spr_face_professor, 1 , "Professor" );
-				ds_grid_add_text("Vá até a sala 3. Os desafios lhe esperam!", spr_face_professor, 1 , "Professor" );
+				ds_grid_add_text("Explore as salas e encontre mais desafios!", spr_face_professor, 1 , "Professor" );
 			break;
 				case "Resposta 2":
 				ds_grid_add_text("Resposta incorreta, tente novamente.", spr_face_professor, 1 , "Professor" );
@@ -61,6 +61,11 @@ function scr_textos(){
 				ds_grid_add_text("Ufa!!!!!",spr_face_professor, 1 , "Professor" ); 
 				ds_grid_add_text("Você conseguiu derrotar o Lord Pythus, meus parabéns!!! Acho que você merece passar de ano.",spr_face_professor, 1 , "Professor" ); 
 					break;
+					
+			case "livro":
+				ds_grid_add_text("Na linguagem Python, uma função fundamental e comumente aprendida no início do aprendizado é a função print(). Essa função é utilizada para exibir uma mensagem na tela ou imprimir informações no console.",spr_livro1 ,1 , "Livro" );
+				ds_grid_add_text("hmm, o que eu faço com esse informação?", spr_face_mike, 1 , "Mike" ); 
+				ds_grid_add_text("Estranho...",spr_face_mike, 1 , "Mike" ); 
 	 }
 }
 

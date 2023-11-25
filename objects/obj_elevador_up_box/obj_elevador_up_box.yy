@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite51",
-    "path": "sprites/Sprite51/Sprite51.yy",
+    "name": "spr_elevador",
+    "path": "sprites/spr_elevador/spr_elevador.yy",
   },
   "spriteMaskId": null,
   "visible": true,

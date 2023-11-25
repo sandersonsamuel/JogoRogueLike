@@ -1,5 +1,5 @@
-vida_total = 100
-vida = 100
+vida_total = 250
+vida = 250
 
 bate_bate_timer = 0
 py_logo_timer = 0 

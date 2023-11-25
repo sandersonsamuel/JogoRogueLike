@@ -3,6 +3,8 @@ velv = 0
 velocidade = 5
 move_dir = 0
 
+state = player_states_free;
+
 global.vida_player = 6
 global.vida_player_total = global.vida_player
 
@@ -30,6 +32,14 @@ global.pd_danoInterTime = 0
 
 global.tomou_dano = false
 
+//dash
+dash = true
+pd_dash = true
+dash_delay = 30
+dash_dir = 0
+dash_force = 9
+dash_time = 0 
+dash_dist = 16
 
 
 
