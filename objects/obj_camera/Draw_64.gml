@@ -1,7 +1,15 @@
 var vida_x = 32
 var vida_y = 32
 var diferenca = global.vida_player_total - global.vida_player 
+var font_name = fnt_dialogo
+var tamanho_da_fonte = 32
+
 draw_sprite(spr_heart_strip7,diferenca, vida_x,vida_y)
+
+draw_set_font(font_name)
+draw_text(vida_x, vida_y + 70, "'WASD' para se movimentar")
+draw_text(vida_x, vida_y + 100, "'F' para interagir")
+
 var contador = 0
 global.camera_x = camera_get_view_x(view_camera[0])
 global.camera_y = camera_get_view_y(view_camera[0])
