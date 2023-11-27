@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview","path":"sprites/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview/_3b38a0d1_13ff_4437_b33f_e279c84252b1_pixelicious__1__removebg_preview.yy",},},
@@ -68,6 +68,7 @@
     {"id":{"name":"spr_livrofechado_strip9","path":"sprites/spr_livrofechado_strip9/spr_livrofechado_strip9.yy",},},
     {"id":{"name":"spr_maike_parado_strip2","path":"sprites/spr_maike_parado_strip2/spr_maike_parado_strip2.yy",},},
     {"id":{"name":"spr_fundo_cenario","path":"sprites/spr_fundo_cenario/spr_fundo_cenario.yy",},},
+    {"id":{"name":"obj_menu_restart_deatch","path":"objects/obj_menu_restart_deatch/obj_menu_restart_deatch.yy",},},
     {"id":{"name":"obj_par_npcs","path":"objects/obj_par_npcs/obj_par_npcs.yy",},},
     {"id":{"name":"spr_tileset_cenario37","path":"sprites/spr_tileset_cenario37/spr_tileset_cenario37.yy",},},
     {"id":{"name":"dano_player","path":"scripts/dano_player/dano_player.yy",},},
@@ -81,6 +82,7 @@
     {"id":{"name":"obj_elevador_rigth","path":"objects/obj_elevador_rigth/obj_elevador_rigth.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"spr_face_professor","path":"sprites/spr_face_professor/spr_face_professor.yy",},},
+    {"id":{"name":"obj_titulo_morte","path":"objects/obj_titulo_morte/obj_titulo_morte.yy",},},
     {"id":{"name":"obj_arma_drop","path":"objects/obj_arma_drop/obj_arma_drop.yy",},},
     {"id":{"name":"spr_cenario","path":"sprites/spr_cenario/spr_cenario.yy",},},
     {"id":{"name":"obj_elevador_down_box","path":"objects/obj_elevador_down_box/obj_elevador_down_box.yy",},},
@@ -144,6 +146,7 @@
     {"id":{"name":"obj_elevador_up","path":"objects/obj_elevador_up/obj_elevador_up.yy",},},
     {"id":{"name":"Dungeon_Tileset_azulclaro","path":"sprites/Dungeon_Tileset_azulclaro/Dungeon_Tileset_azulclaro.yy",},},
     {"id":{"name":"spr_pybots_strip4","path":"sprites/spr_pybots_strip4/spr_pybots_strip4.yy",},},
+    {"id":{"name":"TITULO_MORTE","path":"sprites/TITULO_MORTE/TITULO_MORTE.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"spr_lamina","path":"sprites/spr_lamina/spr_lamina.yy",},},
     {"id":{"name":"spr_face_mike","path":"sprites/spr_face_mike/spr_face_mike.yy",},},
@@ -154,6 +157,7 @@
     {"id":{"name":"spr_fundo_bing","path":"sprites/spr_fundo_bing/spr_fundo_bing.yy",},},
     {"id":{"name":"spr_pistola","path":"sprites/spr_pistola/spr_pistola.yy",},},
     {"id":{"name":"snd_tiro_inimigo_2","path":"sounds/snd_tiro_inimigo_2/snd_tiro_inimigo_2.yy",},},
+    {"id":{"name":"death","path":"rooms/death/death.yy",},},
     {"id":{"name":"SpriteUpgrade","path":"sprites/SpriteUpgrade/SpriteUpgrade.yy",},},
     {"id":{"name":"professor_strip2_","path":"sprites/professor_strip2_/professor_strip2_.yy",},},
     {"id":{"name":"spr_op_background","path":"sprites/spr_op_background/spr_op_background.yy",},},
@@ -173,6 +177,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_Inicio","path":"rooms/rm_Inicio/rm_Inicio.yy",},},
+    {"roomId":{"name":"death","path":"rooms/death/death.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

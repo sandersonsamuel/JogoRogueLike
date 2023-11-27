@@ -19,9 +19,14 @@ image_angle += 10
 
 if (!global.pause) {
 
-    speed = 3.5
-    direction = point_direction(x, y, obj_player.x, obj_player.y)
+	if instance_exists(obj_player){
+		speed = 3.5
+		direction = point_direction(x, y, obj_player.x, obj_player.y)
+	}
+    
 } else {
-    speed = 0
-    direction = original_direction
+	if instance_exists(obj_player){
+		speed = 0
+		direction = original_direction
+	}
 }

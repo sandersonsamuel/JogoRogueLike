@@ -9,6 +9,7 @@ draw_sprite(spr_heart_strip7,diferenca, vida_x,vida_y)
 draw_set_font(font_name)
 draw_text(vida_x, vida_y + 70, "'WASD' para se movimentar")
 draw_text(vida_x, vida_y + 100, "'F' para interagir")
+draw_text(vida_x, vida_y + 130, "'Mouse Direito' para dar dash")
 
 var contador = 0
 global.camera_x = camera_get_view_x(view_camera[0])

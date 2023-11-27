@@ -1,0 +1,2 @@
+room_goto(rm_Inicio)
+audio_stop_sound(MUSIQUINHA8BITSFAMICON)
